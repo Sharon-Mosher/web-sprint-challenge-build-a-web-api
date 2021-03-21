@@ -12,3 +12,12 @@ I need this code, but don't know where, perhaps should make some middleware, don
 
 Go code!
 */
+
+const server = require('./api/server.js')
+
+const PORT = 4000;
+server.listen(PORT,() =>{
+    console.log(`\n *** Listening on port ${PORT} *** \n`)
+})
+
+const Help = "Is this working?"
