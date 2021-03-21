@@ -140,7 +140,25 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. The core features of Node.js and Express and why they are useful.
+      helps the front-end and the back-end communicate
+
 1. Understand and explain the use of Middleware.
+      Middleware keeps code clean and dry.
+
 1. The basic principles of the REST architectural style.
+      REST APIs have six constraints:
+      -client-server architecture.
+      -stateless architecture.
+      -cacheable: 
+      -layered system:
+      --code on demand
+      uniform interfaces
+      HATEOAS (Hypermedia As The Engine Of Application State).
+
 1. Understand and explain the use of Express Routers.
+      An Express Router behaves like a mini Express application. It can have its own Routing and Middleware, but it needs to exist inside an Express application.
+      
 1. Describe tooling used to manually test the correctness of an API.
+      Tools such as POSTMAN or Insomnia have interfaces with calls for APIs. Select the call you want and test it!
+
+is this working?
